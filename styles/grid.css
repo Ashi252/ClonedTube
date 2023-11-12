@@ -1,0 +1,16 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.world{
+    background-color: lightblue;
+    height: 200px;
+}
+.cool{
+    background-color: lightpink;
+    height: 200px;
+    
+}

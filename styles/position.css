@@ -1,0 +1,43 @@
+.first-div{
+    background-color: blue;
+    height: 200px ;
+    width: 200px;
+    position: static;
+}
+.second-div{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+.head{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+    bottom: none;
+    right: 0px;
+    left: 0px;
+    z-index: 20;
+}
+.whole{
+    height: 3000px;
+    padding-top: 60px;
+    padding-left: 81px;
+
+}
+.sidebar{
+    background-color: green;
+    color: white;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 50px;
+    width: 80px;
+}
+.absolute{
+    position: absolute;
+    background-color: blueviolet;
+    color: white;
+    left: 300px;
+}

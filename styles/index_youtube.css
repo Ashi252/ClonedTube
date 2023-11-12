@@ -1,0 +1,144 @@
+.title-fix{
+    height: 10px;
+}
+.title{
+    margin-top: 60px;
+    font-size: larger;
+    font-family: Roboto,Arial;
+    font-style: solid;
+    font-weight: 700;
+}
+.info{
+    margin-top: -50px;
+
+}
+.reals-grid{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items:center;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+
+
+}
+.reals-image{
+    margin-top: 20px;
+    height: 340px;
+    width: 180px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    align-items: center;
+    justify-content: center;
+
+}
+.reals-image:hover{
+    border-radius: 5px;
+}
+
+.info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.hq1{
+  width: 100%;
+  border-radius: 8px;
+}
+  .hq1:hover{
+    border-radius: reverse;
+}  
+.video-title,.reals-title{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 9px;
+    color: black;
+    text-decoration-line: none;
+}
+.cloned-picture{
+    width: 80%;
+    border-radius: 30px;
+}
+.cloned-picture1{
+    width: 80%;
+    height: -30px;
+    border-radius: 50px;
+}
+
+.image{
+    margin-bottom: 8px;
+    position: relative;
+     transition: 0.15s ;
+    
+
+}
+.image:hover .video-time{
+    opacity: 0;
+}
+.hq1:hover{
+    border-radius: 0;
+}
+.video-stats{
+    margin-top: 4px;
+}
+.reals-stats{
+    margin-bottom: 50px;
+}
+.video-author,.video-stats,.reals-stats{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    text-decoration-line: none;
+}
+.video-author{
+    margin-bottom: 4px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+
+
+}
+
+@media(max-width: 750px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 751) and (max-width: 999){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr
+    
+    }}
+
+@media(min-width:1000px){
+        .video-grid{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5px;
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 5px;
+    background-position: initial;
+    margin-right: 4px;
+    opacity: 1;
+
+
+
+}
+
+.b{
+    margin-bottom: 100px;
+}

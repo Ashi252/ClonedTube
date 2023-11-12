@@ -1,0 +1,38 @@
+.Hello{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-between;
+    align-items:"#";
+
+    
+}
+.cool{
+    background-color: lightblue;
+}
+.Hi{
+    background-color: lightpink;
+    flex: 2;
+    margin-left: 1px;
+
+
+}
+.cool2{
+    background-color:crimson;
+    flex: 2;
+    margin-left: 2px;
+}
+.cool3{
+    background-color:blue;
+    flex: 1;
+    margin-right: 2px;
+
+}
+.Hi2{
+    background-color:white;
+    margin-left: 2px;
+
+}
